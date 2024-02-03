@@ -9,7 +9,9 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 
-
+// root module of the application is AppModule
+// any application should have at least one module
+// we can find the AppModule class in app.module.ts
 
 
 platformBrowserDynamic().bootstrapModule(AppModule)
